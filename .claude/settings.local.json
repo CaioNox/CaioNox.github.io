@@ -20,7 +20,13 @@
       "Bash(timeout 60 firefox --headless --window-size=1920,1080 --screenshot /tmp/slide16.png file://__TRACKED_VAR__/slide-16.html)",
       "Bash(python3 -c \"from PIL import Image; print\\('size', Image.open\\('/tmp/slide16.png'\\).size\\)\")",
       "Bash(timeout 70 firefox --headless --screenshot=/tmp/slide16.png --window-size=1920,1080 file://__TRACKED_VAR__/slide-16.html)",
-      "Bash(timeout 300 npx -y @puppeteer/browsers install chrome@stable)"
+      "Bash(timeout 300 npx -y @puppeteer/browsers install chrome@stable)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(curl -s -o /dev/null -w \"home  %{http_code}\\\\n\" https://caionox.github.io/)",
+      "Bash(curl -s -o /dev/null -w \"sist  %{http_code}\\\\n\" https://caionox.github.io/sistema/)",
+      "Bash(git config *)",
+      "Bash(git credential *)"
     ]
   }
 }
