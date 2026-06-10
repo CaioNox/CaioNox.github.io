@@ -2,7 +2,25 @@
   "permissions": {
     "allow": [
       "Bash(mv slide-16.html slide-20.html)",
-      "Bash(mv slide-17.html slide-21.html)"
+      "Bash(mv slide-17.html slide-21.html)",
+      "Bash(git ls-files *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'feat\\(slides 16-19\\): quadros expansíveis em overlay com texto legal na íntegra *)",
+      "Bash(sed -n '245,278p' slide-04.html)",
+      "Bash(sed -n '198,210p' slide-06.html)",
+      "Bash(sed -n '230,258p' slide-11.html)",
+      "Bash(chromium-browser --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=1920,1080 --screenshot=/tmp/slide16.png file://__TRACKED_VAR__/slide-16.html)",
+      "Read(//tmp/**)",
+      "Bash(chromium-browser --headless=new --no-sandbox --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1920,1080 --screenshot=/tmp/slide16.png file://__TRACKED_VAR__/slide-16.html)",
+      "Read(//snap/chromium/current/usr/lib/chromium-browser/**)",
+      "Read(//home/caionox/.cache/**)",
+      "Bash(fc-match sans *)",
+      "Bash(timeout 5 curl -sI https://registry.npmjs.org)",
+      "Bash(timeout 60 firefox --headless --window-size=1920,1080 --screenshot /tmp/slide16.png file://__TRACKED_VAR__/slide-16.html)",
+      "Bash(python3 -c \"from PIL import Image; print\\('size', Image.open\\('/tmp/slide16.png'\\).size\\)\")",
+      "Bash(timeout 70 firefox --headless --screenshot=/tmp/slide16.png --window-size=1920,1080 file://__TRACKED_VAR__/slide-16.html)",
+      "Bash(timeout 300 npx -y @puppeteer/browsers install chrome@stable)"
     ]
   }
 }
