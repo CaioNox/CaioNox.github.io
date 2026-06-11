@@ -28,7 +28,8 @@
       "Bash(git config *)",
       "Bash(git credential *)",
       "WebSearch",
-      "Bash(echo \"exit:$?\")"
+      "Bash(echo \"exit:$?\")",
+      "Bash(python3 *)"
     ]
   }
 }
