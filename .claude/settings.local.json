@@ -27,7 +27,8 @@
       "Bash(curl -s -o /dev/null -w \"sist  %{http_code}\\\\n\" https://caionox.github.io/sistema/)",
       "Bash(git config *)",
       "Bash(git credential *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(echo \"exit:$?\")"
     ]
   }
 }
