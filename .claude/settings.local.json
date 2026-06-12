@@ -29,7 +29,9 @@
       "Bash(git credential *)",
       "WebSearch",
       "Bash(echo \"exit:$?\")",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(node -e ' *)",
+      "Bash(node *)"
     ]
   }
 }
