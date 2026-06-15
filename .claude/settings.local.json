@@ -31,7 +31,12 @@
       "Bash(echo \"exit:$?\")",
       "Bash(python3 *)",
       "Bash(node -e ' *)",
-      "Bash(node *)"
+      "Bash(node *)",
+      "Bash(head -430 /home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio/sistema/relatorio.html)",
+      "Bash(tail -530 /home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio/sistema/relatorio.html)",
+      "Bash(cat)",
+      "Bash(chmod +x /tmp/audit_slides.sh)",
+      "Bash(/tmp/audit_slides.sh)"
     ]
   }
 }
