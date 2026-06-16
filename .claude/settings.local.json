@@ -38,7 +38,10 @@
       "Bash(chmod +x /tmp/audit_slides.sh)",
       "Bash(/tmp/audit_slides.sh)",
       "Bash(html5validator /home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio/sistema/slide-05.html)",
-      "Bash(timeout 10 xvfb-run -a -s \"-screen 0 1920x1080x24\" chromium-browser --headless --disable-gpu --screenshot=/tmp/slide-05.png \"file:///home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio/sistema/slide-05.html\")"
+      "Bash(timeout 10 xvfb-run -a -s \"-screen 0 1920x1080x24\" chromium-browser --headless --disable-gpu --screenshot=/tmp/slide-05.png \"file:///home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio/sistema/slide-05.html\")",
+      "Bash(firefox --version)",
+      "Bash(git restore *)",
+      "Bash(git commit *)"
     ]
   }
 }
