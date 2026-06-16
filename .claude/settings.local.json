@@ -41,7 +41,14 @@
       "Bash(timeout 10 xvfb-run -a -s \"-screen 0 1920x1080x24\" chromium-browser --headless --disable-gpu --screenshot=/tmp/slide-05.png \"file:///home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio/sistema/slide-05.html\")",
       "Bash(firefox --version)",
       "Bash(git restore *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(npm list *)",
+      "Bash(npm install *)",
+      "Bash(npx playwright *)",
+      "Bash(wkhtmltoimage --version)",
+      "Bash(curl -s http://localhost:8000/sistema/slide-17.html)",
+      "Bash(curl -s http://localhost:8000/sistema/slide-18.html)",
+      "Bash(curl -I http://localhost:8000/sistema/slide-17.html)"
     ]
   }
 }
