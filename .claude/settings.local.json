@@ -48,7 +48,17 @@
       "Bash(wkhtmltoimage --version)",
       "Bash(curl -s http://localhost:8000/sistema/slide-17.html)",
       "Bash(curl -s http://localhost:8000/sistema/slide-18.html)",
-      "Bash(curl -I http://localhost:8000/sistema/slide-17.html)"
+      "Bash(curl -I http://localhost:8000/sistema/slide-17.html)",
+      "Bash(git revert *)",
+      "Bash(grep -rn \"145\" slide-*.html relatorio.html index.html)",
+      "Bash(grep -rin \"conselheiro\" slide-*.html relatorio.html)",
+      "Bash(grep -rn \"192\" slide-*.html relatorio.html)",
+      "Bash(exit 1)",
+      "Bash(command -v chromium)",
+      "Bash(echo \"chromium: $\\(command -v chromium\\)\")",
+      "Bash(command -v chromium-browser)",
+      "Bash(echo \"chromium-browser: $\\(command -v chromium-browser\\)\")",
+      "Bash(command -v google-chrome)"
     ]
   }
 }
