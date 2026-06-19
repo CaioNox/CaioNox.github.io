@@ -58,7 +58,12 @@
       "Bash(echo \"chromium: $\\(command -v chromium\\)\")",
       "Bash(command -v chromium-browser)",
       "Bash(echo \"chromium-browser: $\\(command -v chromium-browser\\)\")",
-      "Bash(command -v google-chrome)"
+      "Bash(command -v google-chrome)",
+      "Bash(git -C /home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio add sistema/relatorio.html)",
+      "Bash(git -C /home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio diff --cached --stat)",
+      "Bash(git *)",
+      "Bash(cp /home/caionox/Downloads/Logo_Fala_BR.png /home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio/sistema/Imagens/)",
+      "Bash(cp /home/caionox/Downloads/logomarca_Ouvidoria.png /home/caionox/Downloads/REF_GITPAGES_adaptado/ouvidoria-relatorio/sistema/Imagens/)"
     ]
   }
 }
