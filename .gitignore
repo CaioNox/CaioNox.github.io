@@ -12,6 +12,14 @@ desktop.ini
 *.swo
 *~
 
+# Claude Code (config local)
+.claude/
+
+# Backups
+*.backup
+*.backup.*
+backup_pre_eyebrow/
+
 # Logs e temporários
 *.log
 npm-debug.log*
